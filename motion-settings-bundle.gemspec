@@ -1,4 +1,8 @@
 # -*- encoding: utf-8 -*-
+module ::Motion; module Project; class Config
+  def self.variable(*); end
+end; end; end
+
 require File.expand_path('../lib/motion-settings-bundle/version', __FILE__)
 
 Gem::Specification.new do |gem|
